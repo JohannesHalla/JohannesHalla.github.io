@@ -1,7 +1,7 @@
 function Feld() {
-  var eingabe = prompt("Wie heißt du?", "");
+  var eingabe = prompt("Wie lautet Ihr Name?", "");
   if (eingabe != null) {
     document.getElementById("HTML").innerHTML =
-      "Hallo, " + eingabe + "!";
+      "Herzlich Willkommen " + eingabe + "!";
   }
 }
